@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Cinamodoro</title>
+    <style>
+        .banner {
+            width: 100%;
+            height: 500px;
+            background-image: url("static/banner-bg.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            vertical-align: middle;
+            padding-top: 200px;
+        }
+
+        .banner h1 {
+            font-size: 120px;
+            text-align: center;
+            color: aquamarine;
+        }
+
+        .download {
+            background-color: rgb(68, 226, 5);
+            color: black;
+            font-size: 20px;
+            font-weight: 500;
+            text-decoration: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+            width: 200px;
+            text-align: center;
+            display: block;
+            margin: auto;
+            border-radius: 20px;
+            transition: all .3s linear;
+
+
+        }
+
+        .download:hover {
+            background-color: black;
+            color: rgb(68, 226, 5);
+        }
+
+        .spn {
+            background-color: rgb(73, 61, 141);
+            color: coral;
+            padding: 7px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light"
+        style="background-color: rgb(8, 238, 142); height:40px; position: fixed; width: 100%; z-index: 100;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cinamodoro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#feature">Features</a>
+                    <a class="nav-link" href="#cust">customization</a>
+                    <a class="nav-link" style="color:rgb(235, 87, 19);" href="#download">Download</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <h1>Cinamodoro</h1>
+        <h3>A pomodoro timer desklet for Cinnamon.</h3>
+    </div>
+
+
+    <br>
+
+    <img src="static/applyss.png" alt="" width="100%" height="auto">
+    <br><br>
+
+    <h1 style="color:darkred; text-align: center;" id="feature">Features</h1>
+    <br><br>
+
+    <div class="list-group" style="margin: auto; width: 60%; margin-bottom: 50px;">
+        <a href="#f2" class="list-group-item list-group-item-action active" aria-current="true" id="f1">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Pomodoro timer</h5>
+
+            </div>
+            <p class="mb-1">A simple and efficient Pomodoro timer for Cinnamon.</p>
+            <small>so definitley try it out.</small>
+        </a>
+        <a href="#f3" class="list-group-item list-group-item-action" id="f2">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Customization</h5>
+
+            </div>
+            <p class="mb-1">customize everything as your taste.</p>
+            <small class="text-muted">Unleash the power of customization.</small>
+        </a>
+        <a href="#f1" class="list-group-item list-group-item-action" id="f3">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Pomodoro timer</h5>
+
+            </div>
+            <p class="mb-1">A simple and efficient Pomodoro timer for Cinnamon.</p>
+        </a>
+    </div>
+
+    <h1 style="color:rgb(238, 103, 25); text-align: center; margin-bottom: 50px;" id="cust">Customization</h1>
+    <div style="display: flex; justify-content: space-around;">
+        <img src="static/custo.png" alt="" width="50%" height="auto" style="display:block;">
+        <p style="width:15%; padding-top:200px; line-height: 25px;">Customization is main beauty of this desklet.
+            customize as you want.
+            <br> right click on desklet and select configure.. to get this promt. <br>
+        </p>
+    </div>
+
+    <div style="width: 100%; height: 200px; margin-top: 100px; margin-bottom: 50px;">
+        <h3 style="text-align: center; margin-bottom: 30px; color: rgb(219, 10, 97);">Download letest version of
+            Cinamodoro
+        </h3>
+        <a href="#" id="download" class="download">Download</a>
+    </div>
+    <hr>
+    <div
+        style=" text-align:center;margin-top: 220px; width: 100%; height: 100px; background-color: rgb(0, 0, 0); padding-top: 30px; color:white;">
+        A Software by Design Project. &copy; 2024
+    </div>
+
+    <h1 style="color:darkred; text-align: center;" id="about">About Cinamodoro</h1>
+    <div class="about-section" style="margin: auto; width: 60%; text-align: center; margin-bottom: 50px;">
+        <p>
+            Cinamodoro is a versatile Pomodoro timer desklet designed specifically for the Cinnamon desktop environment.
+            It helps users manage their time effectively by breaking work into intervals, traditionally 25 minutes in
+            length,
+            separated by short breaks. This method enhances focus and productivity, making it ideal for students,
+            professionals,
+            and anyone looking to improve their time management skills.
+        </p>
+        <p>
+            Key features include:
+        </p>
+        <ul style="list-style-type: none; padding: 0;">
+            <li>✔️ Simple and intuitive interface</li>
+            <li>✔️ Customizable timer settings</li>
+            <li>✔️ Notifications for work and break intervals</li>
+            <li>✔️ Easy access to configuration options</li>
+            <li>✔️ Lightweight and efficient performance</li>
+        </ul>
+        <p>
+            Whether you're studying for exams, working on a project, or just trying to stay focused,
+            Cinamodoro is the perfect companion to help you achieve your goals.
+            Download it today and take the first step towards better time management!
+        </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
