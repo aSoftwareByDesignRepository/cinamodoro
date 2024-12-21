@@ -1,0 +1,10 @@
+{
+    "name": "Cinamodoro",
+    "description": "A versatile Pomodoro timer desklet that helps you manage your time effectively.",
+    "author": "aSoftwareByDesign",
+    "version": "1.0",
+    "uuid": "cinamodoro@software-by-design",
+    "license": "MIT",
+    "homepage": "https://github.com/aSoftwareByDesign/Cinamodoro",
+    "icon": "icon.png"
+}
